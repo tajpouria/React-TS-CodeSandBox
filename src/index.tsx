@@ -3,13 +3,10 @@ import { render } from "react-dom";
 
 import "./styles.css";
 
+import CounterErrorBoundaryExample from "./CounterErrorBoundaryExample";
+
 function App() {
-  return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
-  );
+    return <CounterErrorBoundaryExample />;
 }
 
 const rootElement = document.getElementById("root");
