@@ -1,4 +1,13 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+.grid {
+  display: grid;
+}
+
+.grid__cell {
+  width: 10px;
+  height: 10px;
+  border: 1px solid lightgrey;
+}
+
+.live {
+  background: #444;
 }
