@@ -1,4 +1,11 @@
 .App {
   font-family: sans-serif;
-  text-align: center;
+}
+
+li {
+  background-color: cyan;
+}
+
+img {
+  width: 15%;
 }

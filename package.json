@@ -5,11 +5,14 @@
   "keywords": [],
   "main": "src/index.tsx",
   "dependencies": {
+    "@gqless/react": "^0.0.1-alpha.28",
+    "gqless": "^0.0.1-alpha.29",
     "react": "16.13.0",
     "react-dom": "16.13.0",
     "react-scripts": "3.4.0"
   },
   "devDependencies": {
+    "@gqless/cli": "^0.0.1-alpha.31",
     "@types/react": "16.9.23",
     "@types/react-dom": "16.9.5",
     "typescript": "3.8.3"
@@ -18,12 +21,17 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "generate": "gqless generate"
   },
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "gqless": {
+    "url": "http://api.spacex.land/graphql/",
+    "outputDir": "src/graphql"
+  }
 }

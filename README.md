@@ -1,11 +1,23 @@
-- [Error Boundary Intro](https://github.com/tajpouria/React-TS-CodeSandBox/tree/errorboundyIntro)
+## Config
 
-- [Uncontrolled Components](https://github.com/tajpouria/React-TS-CodeSandBox/tree/uncontrolledComponet)
+1. Install dependencies
 
-- [Conway's game of life](https://github.com/tajpouria/React-TS-CodeSandBox/tree/conwaysgameoflife)
+   > yarn add gqless @gqless/react
+   > yarn add -D @gqless/cli
 
-- [Async MobX](https://github.com/tajpouria/React-TS-CodeSandBox/tree/async-mobx)
+2. config
+   [./package.json](./package.json)
 
-- [Stop Using is Loading boolean!](https://github.com/tajpouria/React-TS-CodeSandBox/tree/StopUsingIsLoadingBoolean)
-
-- [React Query demo](https://github.com/tajpouria/React-TS-CodeSandBox/tree/reactQuery)
+```json
+{
+  "scripts: {
+    "generate": "gqless generate"
+    },
+  "gqless": {
+    "url": "http://api.spacex.land/graphql/",
+    "outputDir": "./src/graphql"
+  }
+}
+```
+## Caveats
+- Set `strict:false` if getting typescript build error
