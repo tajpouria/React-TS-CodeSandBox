@@ -9,3 +9,5 @@
 - [Stop Using is Loading boolean!](https://github.com/tajpouria/React-TS-CodeSandBox/tree/StopUsingIsLoadingBoolean)
 
 - [React Query demo](https://github.com/tajpouria/React-TS-CodeSandBox/tree/reactQuery)
+  
+- [Gqless](https://github.com/tajpouria/React-TS-CodeSandBox/tree/gqless)
