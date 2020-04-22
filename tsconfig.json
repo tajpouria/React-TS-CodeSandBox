@@ -7,7 +7,7 @@
       "dom",
       "es2015"
     ],
-    "jsx": "react",
+    "jsx": "preserve",
     "target": "es5",
     "allowJs": true,
     "skipLibCheck": true,
@@ -20,5 +20,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true
-  }
+  },
+  "exclude": [
+    "node_modules"
+  ]
 }

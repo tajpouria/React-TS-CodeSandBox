@@ -1,29 +1,26 @@
 {
-  "name": "new",
+  "name": "React-TS-CodeSandBox",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "main": "src/index.tsx",
+  "main": "index.js",
+  "repository": "https://github.com/tajpouria/React-TS-CodeSandBox",
+  "author": "tajpouria <tajpouria.dev@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
-    "react": "16.13.0",
-    "react-dom": "16.13.0",
-    "react-scripts": "3.4.0"
+    "knex": "^0.21.0",
+    "next": "^9.3.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "sqlite3": "^4.1.1"
   },
   "devDependencies": {
-    "@types/react": "16.9.23",
-    "@types/react-dom": "16.9.5",
-    "typescript": "3.8.3"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+    "@types/knex": "^0.16.1",
+    "@types/node": "^13.13.2",
+    "@types/react": "^16.9.34",
+    "typescript": "^3.8.3"
+  }
 }
