@@ -15,3 +15,5 @@
 - [TailwindGallery](https://github.com/tajpouria/React-TS-CodeSandBox/tree/tailwindGallery)
 
 - [Next Hooks](https://github.com/tajpouria/React-TS-CodeSandBox/tree/nextHooks)
+
+- [Strapi Demo](https://github.com/tajpouria/React-TS-CodeSandBox/tree/strapiDemo)
