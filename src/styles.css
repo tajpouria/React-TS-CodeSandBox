@@ -1,4 +1,22 @@
 .App {
   font-family: sans-serif;
-  text-align: center;
+}
+
+div.drag {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 13rem;
+  width: 17rem;
+  padding: 2rem;
+  background-color: lightgray;
+  border: 2px dotted black;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: -apple-system;
+  transition: 0.4s ease;
 }
